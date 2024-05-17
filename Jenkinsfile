@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage (git) {
             steps {
-                git branch: 'main', url: 'https://github.com/vamsibyramala/pet_shop.git'
+                git branch: 'main', url: 'https://github.com/praveen-gogula/pet_shop.git'
             }
         }
         stage (build) {
